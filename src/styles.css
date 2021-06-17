@@ -1,7 +1,93 @@
 body {
   width: 100%;
   margin: 0 auto;
-  background-color: rgba(var(--b3f, 250, 250, 250), 1);
   font-family: 'Inter', sans-serif;
   font-size: 15px;
+  background-color: #fafafa;
+}
+
+header {
+  width: 100%;
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid 1px #dbdbdb;
+  background-color: #ffff;
+}
+
+.header-info {
+  width: 65%;
+  padding: 15px 0 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .instagram {
+  width: 210px;
+}
+
+header .instagram svg {
+  width: 110px;
+}
+
+header .search {
+  position: relative;
+}
+
+header .search svg {
+  width: 12px;
+  position: absolute;
+  top: 8px;
+  left: 70px;
+  fill: #a5a7aa;
+}
+
+header .search input {
+  width: 200px;
+  height: 12px;
+  border-radius: 3px;
+  padding: 7px;
+  text-align: center;
+  cursor: text;
+  outline: none;
+  font-size: 14px;
+  font-weight: 300;
+  border: solid 1px #dbdbdb;
+  background-color: #fafafa;
+}
+
+header .icons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+header .icons a {
+  width: 25px;
+  height: 25px;
+}
+
+header .icons a + a {
+  margin-left: 20px;
+}
+
+header .profile-image {
+  height: 20px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid #262626;
+}
+
+header .photo {
+  width: 20px;
+  height: 20px;
+  background-image: url(img/img-1.jpg);
+  background-size: 100%;
+  background-position: center;
+  border-radius: 50%;
 }
