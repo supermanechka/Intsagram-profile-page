@@ -256,7 +256,7 @@ main .circle:nth-of-type(7) .story {
 
 main .navigation {
   width: 65%;
-  margin: 0 auto;
+  margin: 20px auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -264,6 +264,113 @@ main .navigation {
 
 main .navigation p {
   font-size: 12px;
+  margin: 0;
   color: #8e8e8e;
   font-weight: 600;
+}
+
+main .navigation .publications p {
+  color: #000;
+}
+
+main .navigation svg {
+  height: 15px;
+  fill: #8e8e8e;
+  margin-right: 7px;
+}
+
+main .navigation .publications {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+main .navigation .publications svg {
+  fill: #000;
+}
+
+main .navigation .igtv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .navigation .saved {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .navigation .taged {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .navigation .publications .line {
+  width: 100%;
+  bottom: 35px;
+  border-top: 2px solid #000;
+  position: absolute;
+}
+
+main .photo-gallery {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+main .photo-gallery .image {
+  width: 270px;
+  height: 270px;
+  margin: 20px 0;
+  background-image: url(img/img-1.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+main .photo-gallery .image + .image {
+  margin-left: 20px;
+}
+
+main .photo-gallery .image:first-of-type {
+  background-image: url(img/img-9.jpg);
+}
+
+main .photo-gallery .image:nth-of-type(2) {
+  background-image: url(img/img-10.jpg);
+}
+
+main .photo-gallery .image:nth-of-type(3) {
+  background-image: url(img/img-11.jpg);
+}
+
+main .photo-gallery .image:nth-of-type(4) {
+  background-image: url(img/img-13.jpg);
+  margin-left: 0;
+}
+
+main .photo-gallery .image:nth-of-type(5) {
+  background-image: url(img/img-14.jpg);
+}
+
+main .photo-gallery .image:nth-of-type(6) {
+  background-image: url(img/img-15.jpg);
+}
+
+main .photo-gallery .image:nth-of-type(7) {
+  background-image: url(img/img-16.jpg);
+  margin-left: 0;
+}
+
+main .photo-gallery .image:nth-of-type(8) {
+  background-image: url(img/img-17.jpg);
+}
+
+main .photo-gallery .image:nth-of-type(9) {
+  background-image: url(img/img-18.jpg);
 }
