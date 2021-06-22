@@ -134,6 +134,7 @@ main .info button {
   font-size: 15px;
   font-weight: 600;
   text-decoration: unset;
+  cursor: pointer;
   color: #000000;
   border: solid 1px #dbdbdb;
   background-color: #fafafa;
