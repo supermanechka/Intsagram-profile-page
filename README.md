@@ -1,4 +1,4 @@
-# Fruit Recipes
+# Instagram Profile Page
 
 > Повторение страницы профиля социальной сети Instagram
 
