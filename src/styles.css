@@ -37,6 +37,12 @@ header .header-info {
   }
 }
 
+@media (min-width: 1440px) {
+  header .header-info {
+    width: 70%;
+  }
+}
+
 header .instagram {
   width: 200px;
 }
@@ -44,6 +50,12 @@ header .instagram {
 header .instagram svg {
   width: 110px;
   padding-top: 7px;
+}
+
+@media (min-width: 1440px) {
+  header .instagram svg {
+    width: 128px;
+  }
 }
 
 header .header-info .search {
@@ -73,6 +85,14 @@ header .search svg {
   }
 }
 
+@media (min-width: 1440px) {
+  header .search svg {
+    width: 14px;
+    top: 8px;
+    left: 79px;
+  }
+}
+
 @media (min-width: 768px) {
   header .search input {
     width: 200px;
@@ -94,6 +114,14 @@ header .search svg {
   header .search input {
     width: 190px;
     height: 12px;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1024px) {
+  header .search input {
+    width: 225px;
+    height: 15px;
     font-size: 15px;
   }
 }
@@ -128,6 +156,13 @@ header .icons a {
   header .icons a {
     width: 25px;
     height: 25px;
+  }
+}
+
+@media (min-width: 1024px) {
+  header .icons a {
+    width: 28px;
+    height: 28px;
   }
 }
 
@@ -191,6 +226,12 @@ main {
 @media (min-width: 1024px) {
   main {
     width: 85%;
+  }
+}
+
+@media (min-width: 1440px) {
+  main {
+    width: 70%;
   }
 }
 
@@ -303,6 +344,12 @@ main .info .name h6:nth-of-type(3) {
   }
 }
 
+@media (min-width: 1440px) {
+  main .info .name h6:nth-of-type(3) {
+    display: block;
+  }
+}
+
 main .info .name svg {
   order: 2;
   width: 25px;
@@ -320,6 +367,12 @@ main .info .name svg {
   main .info .name svg {
     width: 25px;
     margin: 0 0 0 15px;
+  }
+}
+
+@media (min-width: 1440px) {
+  main .info .name svg {
+    width: 28px;
   }
 }
 
@@ -365,6 +418,14 @@ main .info .name button {
   }
 }
 
+@media (min-width: 1440px) {
+  main .info .name button {
+    width: 230px;
+    height: 35px;
+    font-size: 16px;
+  }
+}
+
 main .numbers-1 {
   display: none;
 }
@@ -376,6 +437,12 @@ main .numbers-1 {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+}
+
+@media (min-width: 1440px) {
+  main .info .numbers-1 {
+    font-size: 17px;
   }
 }
 
@@ -476,6 +543,12 @@ main .about-1 {
   }
 }
 
+@media (min-width: 1440px) {
+  main .about-1 {
+    font-size: 17px;
+  }
+}
+
 main .about-1 p:first-child {
   font-weight: 600;
 }
@@ -519,6 +592,12 @@ main .profile-image {
   }
 }
 
+@media (min-width: 1440px) {
+  main .profile-image {
+    padding: 10px 90px 0 50px;
+  }
+}
+
 main .photo {
   width: 80px;
   height: 80px;
@@ -535,6 +614,13 @@ main .photo {
   main .photo {
     width: 150px;
     height: 150px;
+  }
+}
+
+@media (min-width: 1440px) {
+  main .photo {
+    width: 170px;
+    height: 170px;
   }
 }
 
@@ -580,6 +666,13 @@ main .story {
   }
 }
 
+@media (min-width: 1440px) {
+  main .story {
+    width: 85px;
+    height: 85px;
+  }
+}
+
 .circle {
   width: 59px;
   height: 59px;
@@ -597,6 +690,13 @@ main .story {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+}
+
+@media (min-width: 1440px) {
+  main .circle {
+    width: 90px;
+    height: 90px;
   }
 }
 
@@ -711,6 +811,12 @@ main .navigation-1 {
   }
 }
 
+@media (min-width: 1440px) {
+  main .navigation-1 {
+    width: 60%;
+  }
+}
+
 main .navigation-1 p {
   font-size: 12px;
   margin: 0;
@@ -721,6 +827,12 @@ main .navigation-1 p {
 @media (min-width: 768px) {
   main .navigation-1 p {
     font-size: 12px;
+  }
+}
+
+@media (min-width: 1440px) {
+  main .navigation-1 p {
+    font-size: 15px;
   }
 }
 
@@ -782,6 +894,12 @@ main .navigation-1 .publications .line {
   }
 }
 
+@media (min-width: 1440px) {
+  main .navigation-1 .publications .line {
+    bottom: 38px;
+  }
+}
+
 main .navigation-2 {
   width: 85%;
   margin: 10px auto;
@@ -830,6 +948,13 @@ main .photo-gallery .image {
     width: 220px;
     height: 220px;
     margin: 20px auto 5px auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  main .photo-gallery .image {
+    width: 305px;
+    height: 305px;
   }
 }
 
